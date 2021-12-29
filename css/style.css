@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.negro{
+  color: black !important;
+}
 body{
     background-color: white;
     width: 100%;
