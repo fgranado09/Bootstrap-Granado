@@ -20,6 +20,31 @@ body{
     color: white;
 }
 
+.nav-link{
+  padding: 0;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+.nav-link:hover{
+  animation-name: transi;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  background-color: #282d32;  
+}
+
+@keyframes transi{
+  0% { width: 0%;
+    background-color: white;}
+  25%{ width: 1%;}
+  50%{ width: 50%;
+    background-color: #282d32;}
+  75%{ width: 75%;
+    background-color:#282d32;}
+  100%{ width: 100%;
+    background-color:#282d32;}
+}
+
 .recuadro:hover{
     background-color: white;
     color: black;
@@ -151,6 +176,11 @@ body{
 
 .row{
     margin: 10px auto;
+}
+.card:hover{
+  transition: 1s;
+  transform: scale(1.025,1.025);
+  border: #282d32 solid 2px;
 }
 
 /* PRODUCTOS */
